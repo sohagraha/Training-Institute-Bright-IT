@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="pb-2 containers ">
             <div className="container">
                 <div className="container  pt-3 pb-4 mt-3">
-                    <h1 className="text-center">Contact Us</h1>
+                    <h1 className="text-center fw-bold">Contact Us</h1>
                     <div className="card mb-5 border-0">
                         <div className="row g-0 p-3">
                             <div className="col-md-6 ps-2 pe-3 pad-right">
@@ -35,7 +35,6 @@ const Contact = () => {
                                 </div>
                                 <button type="button" className="btn btn-danger ps-5 pe-5">Send</button>
                                 <br />
-                                <small>*Please wait, our admin will contact with you as soon as possible</small>
                             </div>
                             <div className="col-md-6 ps-3">
                                 <div className="card-body pt-4 text-start fs-5">
@@ -45,9 +44,9 @@ const Contact = () => {
                                             Begum Rokeya Sarani <br />
                                             Mirpur-10, Dhaka.</span>
                                         <br />
-                                        <span ><i className="fas fa-phone text-danger"></i> 202-314-1583</span>
+                                        <span ><i className="fas fa-phone text-danger"></i> 01857665766</span>
                                         <br />
-                                        <span><i className="far fa-envelope text-danger"></i> support @biss.com</span>
+                                        <span><i className="far fa-envelope text-danger"></i> support @brightit.com</span>
                                     </div>
                                     <div className="contacts g-5 fs-2 text-danger">
                                         <i className="fab fa-facebook-f p-3"></i>
