@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div>
             {/* header image  */}
-            <img src="https://lh3.googleusercontent.com/proxy/B3XagCC_xdBReHKjgkk0BqtNL_p4uEZ2ZrhkZ9A9p_GE70wgxEXr4LwKNe5ZmBL5yM_tgzwIT01a1Z0QHln6JNf3tptpQpPMHDYbhPseyL2lSIah3POOgY7BF76-aJGOwuOwSVR3q8depJV2" alt="" />
+            <img src="https://lh3.googleusercontent.com/proxy/MGNdySHruxr0P-gefgcugV0v25yD3UXDHU-bFHh0TLT_WwEEMuybAQgpZFaWvNpSm6SU106IFmpticnupWpu8C9rVDN7oclBhxHGsROzEn6ldBALKYmTVLqVA4SpNKAqU3bIJR0LKPSXwVfj" alt="" />
             {/* Navbar  */}
             <Navbar className='p-0 mt-2' bg="dark" variant="dark">
                 <Container className="d-flex justify-content-between">
