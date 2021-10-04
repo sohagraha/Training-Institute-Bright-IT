@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         // Footer Section 
         <div className='p-5 bg-dark text-white'>
-            <h6>Copyright <i class="far fa-copyright"></i> all right reserved</h6>
+            <h6>Copyright <i className="far fa-copyright"></i> all right reserved</h6>
         </div>
     );
 };
