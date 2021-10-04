@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='p-5 bg-dark text-white'>
-            <small>Copyright all right seserved</small>
+            <h6>Copyright <i class="far fa-copyright"></i> all right reserved</h6>
         </div>
     );
 };

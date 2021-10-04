@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import NotFound from './components/NotFound/NotFound';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route exact path='/services'>
             <Services></Services>
+          </Route>
+          <Route exact path='/contact-us'>
+            <Contact></Contact>
           </Route>
           <Route exact path='/'>
             <Home></Home>

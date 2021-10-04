@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import MainSevices from '../MainServices/MainSevices';
 import MyCarousel from '../MyCarousel/MyCarousel';
 import './Home.css'

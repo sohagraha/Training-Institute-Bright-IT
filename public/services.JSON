@@ -24,7 +24,7 @@
         "category": "Web",
         "target": "Feature",
         "mentor": "Maksud Alam",
-        "fee": 16000
+        "fee": 11300
     },
     {
         "id": 3,
@@ -38,7 +38,7 @@
         "category": "Cyber Secuirity",
         "target": "Feature",
         "mentor": "H. M. Mohidul Islam",
-        "fee": 20000
+        "fee": 13500
     },
     {
         "id": 4,
@@ -66,62 +66,62 @@
         "category": "Web",
         "target": "Feature",
         "mentor": "Md Shahriar Hossain Sajib",
-        "fee": 6000
+        "fee": 6900
     },
     {
         "id": 6,
-        "name": "Competitive Programming - Beginner",
-        "details": "Solving a problem is meaningless if you can't convert it to a workable code in a contest that covers all the edge cases. Solving a problem, writing its code in an",
-        "image": "https://s3-ap-southeast-1.amazonaws.com/devskillimagestorage/profileimages/ff015ecc-9201-4e22-8cea-e45dee8652df_76ae3f76607a42deb9b65d1d51cc2f6d_W400xH0.png",
+        "name": "Video editing for beginners in Premiere Pro CC",
+        "details": "Do you want to edit your videos for youtube, facebook or film production? But you do not know how to start. Then this course is for you, Here you will learn",
+        "image": "https://s3-ap-southeast-1.amazonaws.com/devskillimagestorage/profileimages/c3dccf88-3a30-420c-b2ad-1424ea03d460_45619b7b7a994614a1d91b978688d763_W400xH0.jpg",
         "level": "Advance",
-        "duration": 40,
-        "classes": 20,
+        "duration": 54,
+        "classes": 27,
         "type": "Online",
         "category": "Web",
         "target": "all",
-        "mentor": "H. M. Mohidul Islam",
-        "fee": 7300
+        "mentor": "Md. Shadek Hossain Minhaz",
+        "fee": 4000
     },
     {
         "id": 7,
-        "name": "Competitive Programming",
-        "details": "Solving a problem is meaningless if you can't convert it to a workable code in a contest that covers all the edge cases. Solving a problem, writing its code in an",
-        "image": "https://s3-ap-southeast-1.amazonaws.com/devskillimagestorage/profileimages/ff015ecc-9201-4e22-8cea-e45dee8652df_76ae3f76607a42deb9b65d1d51cc2f6d_W400xH0.png",
+        "name": "Docker Essentials",
+        "details": "Docker Essentials Course will help you to learn how to develop and deploy web applications with Docker technologies. Take your DevOps skills to",
+        "image": "https://s3-ap-southeast-1.amazonaws.com/devskillimagestorage/profileimages/1e2b0487-719a-4be7-86af-eae1c60d2fd8_c14f238295c547fdac570260fa1c6ea9_W400xH0.png",
         "level": "Beginner",
-        "duration": 40,
-        "classes": 20,
+        "duration": 13,
+        "classes": 8,
         "type": "Online",
         "category": "Web",
         "target": "all",
         "mentor": "H. M. Mohidul Islam",
-        "fee": 9400
+        "fee": 6000
     },
     {
         "id": 8,
-        "name": "Competitive Programming - Beginner",
-        "details": "Solving a problem is meaningless if you can't convert it to a workable code in a contest that covers all the edge cases. Solving a problem, writing its code in an",
-        "image": "https://s3-ap-southeast-1.amazonaws.com/devskillimagestorage/profileimages/ff015ecc-9201-4e22-8cea-e45dee8652df_76ae3f76607a42deb9b65d1d51cc2f6d_W400xH0.png",
-        "level": "Intermediate",
-        "duration": 40,
-        "classes": 20,
+        "name": "DevOps Fundamental Course",
+        "details": "The DevOps Fundamentals Course is designed to provide the core education necessary to build your DevOps vocabulary and to understand its",
+        "image": "https://s3-ap-southeast-1.amazonaws.com/devskillimagestorage/profileimages/16b57c32-5fa7-4a90-a1fe-be6f269771b5_7ee7796415464d708cf872e442f86fd3_W298xH0.png",
+        "level": "Advance",
+        "duration": 32,
+        "classes": 16,
         "type": "Online",
         "category": "Web",
         "target": "all",
-        "mentor": "H. M. Mohidul Islam",
-        "fee": 4500
+        "mentor": "Khalid Bin Sattar",
+        "fee": 20000
     },
     {
         "id": 9,
-        "name": "Competitive Programming - Beginner",
-        "details": "Solving a problem is meaningless if you can't convert it to a workable code in a contest that covers all the edge cases. Solving a problem, writing its code in an",
-        "image": "https://s3-ap-southeast-1.amazonaws.com/devskillimagestorage/profileimages/ff015ecc-9201-4e22-8cea-e45dee8652df_76ae3f76607a42deb9b65d1d51cc2f6d_W400xH0.png",
-        "level": "Advance",
-        "duration": 40,
-        "classes": 20,
+        "name": "Complete Guide to Android & IOS App Development",
+        "details": "Do you ever want to be a mobile app developer? Wouldn't it be so cool if you could build apps that can run seamlessly on Android and iOS at the",
+        "image": "https://s3-ap-southeast-1.amazonaws.com/devskillimagestorage/profileimages/ade886e7-c312-4dd9-b430-d8c8b029b693_eb296fabe2ad46f0ad2a8908db380ff1_W400xH0.jpg",
+        "level": "Intermediate",
+        "duration": 39,
+        "classes": 26,
         "type": "Online",
         "category": "Web",
         "target": "all",
-        "mentor": "H. M. Mohidul Islam",
+        "mentor": "Saad Bin Bashar",
         "fee": 11000
     }
 ]
