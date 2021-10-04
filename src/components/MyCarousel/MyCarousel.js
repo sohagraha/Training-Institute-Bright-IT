@@ -4,6 +4,7 @@ import './MyCarousel.css'
 
 const MyCarousel = () => {
     return (
+        // slider (carousel) section 
         <div>
             <Carousel>
                 <Carousel.Item>

@@ -10,6 +10,7 @@ const About = () => {
                     <h4>Learn real world software engineering from industry experts. Upgrade your skill to international level.</h4>
                     <i><small>Get Hands On Experience in Real World Software Development from Experts in the Industry. Get Ready for Professional Career.</small></i>
                 </div>
+                {/* Team Member Details - Our Team  */}
                 <div className="pt-3 pb-4">
                     <div className="container">
                         <div className="row mt-4">
@@ -19,6 +20,7 @@ const About = () => {
                                 </h1>
                             </div>
                         </div>
+                        {/* Team Members Container  */}
                         <div className="row">
                             <div className="col-md-4 text-center">
                                 <img className="img-fluid qualities-img p-4 rounded-circle" src="https://changemyface.com/wp-content/themes/changemyface-bm/images/demo-img.jpg" alt="" />

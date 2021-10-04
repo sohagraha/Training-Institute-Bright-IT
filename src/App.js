@@ -14,9 +14,8 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-
+        {/* Header  */}
         <Header></Header>
-
         <Switch>
           <Route exact path='/home'>
             <Home></Home>
@@ -37,9 +36,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
-
         <Footer></Footer>
-
       </BrowserRouter>
     </div>
   );

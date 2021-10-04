@@ -2,8 +2,10 @@ import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
 
 const Service = (props) => {
+    // destracturing data 
     const { name, image, fee, type, details, level, mentor } = props.service;
     return (
+        // single service card with details 
         <Col>
             <Card>
                 <Card.Img variant="top" src={image} className='w-100 mainCard images' />
@@ -20,7 +22,6 @@ const Service = (props) => {
                         <Button className="btn-back">Enroll Now</Button>
                         <Button className="btn-back"><i className="fas fa-info-circle"></i> Details</Button>
                     </div>
-
                 </Card.Body>
             </Card>
         </Col>

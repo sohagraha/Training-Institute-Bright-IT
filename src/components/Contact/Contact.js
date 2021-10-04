@@ -12,6 +12,7 @@ const Contact = () => {
                         <div className="row g-0 p-3">
                             <div className="col-md-6 ps-2 pe-3 pad-right">
                                 <div className="mb-3 mt-3">
+                                    {/* Name Field - Customer give their name here */}
                                     <InputGroup className="mb-3">
                                         <FormControl
                                             aria-label="Default"
@@ -20,6 +21,7 @@ const Contact = () => {
                                         />
                                     </InputGroup>
                                 </div>
+                                {/* Email Field - Customer give their mail here */}
                                 <div className="mb-3">
                                     <InputGroup className="mb-3">
                                         <FormControl
@@ -29,6 +31,7 @@ const Contact = () => {
                                         />
                                     </InputGroup>
                                 </div>
+                                {/* Message Field - Customer write their Message here */}
                                 <div className="mb-2">
                                     <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Message"
                                         rows="6"></textarea>
@@ -38,7 +41,9 @@ const Contact = () => {
                             </div>
                             <div className="col-md-6 ps-3">
                                 <div className="card-body pt-4 text-start fs-5">
+                                    {/* Short Discription  */}
                                     <p><b>"Bright It"</b> is no. 1 training institute in Bangladesh. Our Mentors are waiting for you.Our every mentors are professional and have enough khowledge in perticular sector. Always we welcome you for learning new things and be professional. For any quary feel free to Contact with Us</p>
+                                    {/* Address  */}
                                     <div className="g-5">
                                         <span><i className="fas fa-map-marker-alt text-danger"></i>  H# 184 (8F), Senpara parbata
                                             Begum Rokeya Sarani <br />
@@ -48,6 +53,7 @@ const Contact = () => {
                                         <br />
                                         <span><i className="far fa-envelope text-danger"></i> support @brightit.com</span>
                                     </div>
+                                    {/* Social Icon Here  */}
                                     <div className="contacts g-5 fs-2 text-secondary fw-bold">
                                         <i className="fab fa-facebook-f p-3"></i>
                                         <i className="fab fa-twitter p-3"></i>

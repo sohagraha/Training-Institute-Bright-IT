@@ -4,7 +4,7 @@ import Service from '../Service/Service';
 
 const Services = () => {
     const [Services, setServices] = useState([]);
-
+    // fetced data from json file 
     useEffect(() => {
         fetch('./services.JSON')
             .then(res => res.json())
@@ -14,6 +14,7 @@ const Services = () => {
     return (
         <div className='m-0'>
             <h1 className="fw-bold mt-3">Our All Services</h1>
+            {/* pass the data to another component  */}
             <Row xs={1} md={3} className="g-4 m-2 w-75 mx-auto">
                 {
                     Services.map(service => <Service service={service} key={service.id}></Service>)

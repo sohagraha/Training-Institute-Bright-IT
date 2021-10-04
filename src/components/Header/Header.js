@@ -23,6 +23,7 @@ const Header = () => {
                             /></NavLink>
                         </Navbar.Brand>
                     </div>
+                    {/* Single Page Link */}
                     <div>
                         <Nav className="me-auto p-0">
                             <Nav.Link><NavLink to='/home'><Button variant="outline-primary" className="text-white">Home</Button></NavLink></Nav.Link>
@@ -34,7 +35,6 @@ const Header = () => {
                             <Nav.Link><NavLink to='/contact-us'><Button variant="outline-primary" className="text-white">Contact Us</Button></NavLink></Nav.Link>
                         </Nav>
                     </div>
-
                 </Container>
             </Navbar>
         </div>
