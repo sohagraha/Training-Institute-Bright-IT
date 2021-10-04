@@ -1,18 +1,34 @@
 import React from 'react';
+import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
-
+    const url = `https://media-exp1.licdn.com/dms/image/C4E0BAQEfADtrIoRugw/company-logo_200_200/0/1625224437159?e=2159024400&v=beta&t=YF8LTe9ie0OfIYvuAIvUqpP1qONn7qEM4LMPjvDRHwU`;
     return (
         <div>
-            <h1>Raha IT Institute</h1>
-            <nav>
-                <NavLink to='/home' >Home</NavLink>
-                <NavLink to='/about-us'>About Us</NavLink>
-                <NavLink to='/services'>Services</NavLink>
-                <NavLink to='/home'>Home</NavLink>
+            <img src="https://lh3.googleusercontent.com/proxy/B3XagCC_xdBReHKjgkk0BqtNL_p4uEZ2ZrhkZ9A9p_GE70wgxEXr4LwKNe5ZmBL5yM_tgzwIT01a1Z0QHln6JNf3tptpQpPMHDYbhPseyL2lSIah3POOgY7BF76-aJGOwuOwSVR3q8depJV2" alt="" />
+            <Navbar className='p-0' bg="dark" variant="dark">
+                <Container className="d-flex justify-content-between">
+                    <div>
+                        <Navbar.Brand variant="outline-primary"><img
+                            src={url}
+                            width="40"
+                            height="40"
+                            className="d-inline-block align-top"
+                            alt="React Bootstrap logo"
+                        /> <img src="https://lh3.googleusercontent.com/proxy/B3XagCC_xdBReHKjgkk0BqtNL_p4uEZ2ZrhkZ9A9p_GE70wgxEXr4LwKNe5ZmBL5yM_tgzwIT01a1Z0QHln6JNf3tptpQpPMHDYbhPseyL2lSIah3POOgY7BF76-aJGOwuOwSVR3q8depJV2" height="40" alt="" className="bg-white p-1" /> </Navbar.Brand>
+                    </div>
+                    <div>
+                        <Nav className="me-auto p-0">
+                            <Nav.Link><NavLink to='/home'><Button variant="outline-primary" className="text-white">Home</Button></NavLink></Nav.Link>
+                            <Nav.Link><NavLink to='/about-us'><Button variant="outline-primary" className="text-white">About Us</Button></NavLink></Nav.Link>
+                            <Nav.Link><NavLink to='/services'><Button variant="outline-primary" className="text-white">Services</Button></NavLink></Nav.Link>
+                        </Nav>
+                    </div>
 
-            </nav>
+                </Container>
+            </Navbar>
         </div>
     );
 };

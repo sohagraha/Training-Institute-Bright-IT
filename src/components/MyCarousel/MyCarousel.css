@@ -1,0 +1,7 @@
+.caruselImage{
+    height: 450px;
+}
+.bg-car{
+    background-color:rgba(0, 0, 0, 0.315);
+    border-radius: 10px 0px;
+}
